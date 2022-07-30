@@ -1,1 +1,82 @@
-/* Write your CSS here! */
+@media screen and (max-width: 680px)
+
+body{
+    font-size: 50%;
+}
+body{
+    background-color: white;
+    margin: 8px;
+    display: block;
+  }
+  
+li{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;  
+  float: left;
+  list-style: none;
+  padding: 8px;
+  font-size: 100%;
+  color: black
+}
+a{
+  display: block;
+  padding: 8px;
+  background-color: black;
+}
+#mainHeading{
+  color: red;
+}
+  h1{
+    color: red;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 562%;
+    text-align: center;
+    margin: 100px
+  }
+  #mainHeading{
+    color: red;
+  }
+
+
+  .funParagraph {
+    color: rgb(0, 128, 0);
+    color: green;
+  }
+
+  p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: green 
+    color: green gi
+  }
+  h2{
+    text-align: center;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+    margin: 8px
+    
+  }
+  main{
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 187%;
+    font-weight: 600px;
+    margin: 8px;
+    padding: 40px;
+  }
+  /* 3x3 flexbox */
+  .flexcontainer.innerbox {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 0 33%;
+    border: 25px solid black;
+    min-height: 33.33vh;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
